@@ -1,16 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <title>three.js xr - dragging</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link type="text/css" rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  Hello world
-  <script src="script.js"></script>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.174.0/build/three.module.js",
+      "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/index.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.174.0/examples/jsm/",
+      "@tonejs/midi": "https://ga.jspm.io/npm:@tonejs/midi@2.0.27/dist/index.mjs",
+      "tone": "https://cdn.skypack.dev/tone",
+      "DigitalBacon-UI": "https://cdn.jsdelivr.net/npm/digitalbacon-ui@0.2.1/build/DigitalBacon-UI.min.js"
+
+    }
+  }
+  </script>
+
+
+  <!-- <div id="info">
+    <a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> xr - dragging
+  </div> -->
+
+  <script src="script.js" type="module">
+
+  </script>
 </body>
 
 </html>
